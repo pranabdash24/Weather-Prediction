@@ -105,7 +105,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # API Key and Base URL
-API_KEY = "6fa403e34bc6f0f5186a4a3f520b833a"
+API_KEY = st.secrets["general"]["API_KEY"]
 CITY_DB_PATH = CITY_DB_PATH = 'city_database.csv'  # Path to city database
 
 # Load the city database
