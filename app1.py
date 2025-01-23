@@ -106,7 +106,7 @@ st.markdown("""
 
 # API Key and Base URL
 API_KEY = "6fa403e34bc6f0f5186a4a3f520b833a"
-CITY_DB_PATH = r"C:\Users\prana\Test Models Weather\city_database.csv"  # Path to city database
+CITY_DB_PATH = CITY_DB_PATH = 'city_database.csv'  # Path to city database
 
 # Load the city database
 try:
