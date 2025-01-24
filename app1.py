@@ -133,7 +133,7 @@ def convert_to_local_time(unix_time, timezone_offset):
 
 # Streamlit UI
 def main():
-    st.title("Weather Forecast Application 🌐 🇮🇳")
+    st.title("Weather Forecast Application 🌐")
 
     # City name input
     city_name = st.text_input("Enter the city name:", "").strip()
